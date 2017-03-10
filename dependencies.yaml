@@ -1,0 +1,14 @@
+options:
+  languages: ["java", "scala:2.11.8"]
+  versionConflictPolicy: highest
+  resolvers:
+    - id: mavencentral
+      type: default
+      url: https://repo.maven.apache.org/maven2/
+
+dependencies:
+  com.typesafe.akka:
+    akka:
+      lang: scala
+      version: 10.0.3
+      modules: [http, http-spray-json]

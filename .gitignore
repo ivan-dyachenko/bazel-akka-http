@@ -1,0 +1,8 @@
+target
+project
+logs
+.classpath
+.project
+.idea
+
+bazel-*

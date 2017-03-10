@@ -6,9 +6,13 @@ Example how to build akka-http Scala example with [Bazel](https://bazel.build)
 
 You can use Scala Rules for Bazel ([rules_scala](https://github.com/bazelbuild/rules_scala)) to build Scala projects
 
-## How to convert Sbt project to Bazel
+## How to run
 
 - Install `Bazel`
+- run `bazel run :akka`
+
+## How to convert Sbt project to Bazel
+
 - Copy `WORKSPACE`, `3rdparty`, `tools` to root directory
 - Remove `3rdparty/jvm/*`
 - Follow steps from `https://github.com/johnynek/bazel-deps` to generate `3rdparty/jvm/*`

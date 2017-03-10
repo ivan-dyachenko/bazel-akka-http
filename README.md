@@ -27,6 +27,6 @@ You can use Scala Rules for Bazel ([rules_scala](https://github.com/bazelbuild/r
 Install [watchman](https://facebook.github.io/watchman/)
 
 In first terminal window run `./ping.sh`
-It second `./watch.sh`
+In second window run `./watch.sh`
 
 When you change something Main.scala project will be re-build and re-run.
